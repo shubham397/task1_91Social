@@ -1,0 +1,57 @@
+body {
+    background-image: url("./backgroundImage.jpg");
+}
+
+#centerBtn {
+    margin: 0 auto;
+    display: block;
+    margin-top: 22vw;
+    font-size: 30px;
+}
+
+#centerBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#bottomDiv {
+    display: flex;
+    margin-left: 15vw;
+    width: 800px;
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+}
+
+#first {
+    position:absolute;
+    bottom:0;
+    background: yellow;
+    width: 200px;
+    height: 60px;
+    transition-duration: 1s;
+}
+
+#first:hover {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    /* transition-duration: 0.2s; */
+}
+
+#second {
+    position:absolute;
+    bottom:0;
+    background: green;
+    width: 200px;
+    height: 60px;
+    margin-left: 200px;
+}
+
+#third {
+    position:absolute;
+    bottom:0;
+    background: red;
+    width: 200px;
+    height: 60px;
+    margin-left: 400px;
+}
