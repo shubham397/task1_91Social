@@ -13,6 +13,13 @@ body {
     background-color: black;
     color: white;
 }
+#centerBtnDiv{
+    font-size: 20px;
+}
+#centerBtnDiv:hover {
+    background-color: black;
+    color: white;
+}
 
 #bottomDiv {
     display: flex;
@@ -29,13 +36,12 @@ body {
     background: yellow;
     width: 200px;
     height: 60px;
-    transition-duration: 1s;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 0px;
 }
 
 #first:hover {
-    padding-bottom: 60px;
     margin-bottom: 60px;
-    /* transition-duration: 0.2s; */
 }
 
 #second {
@@ -45,6 +51,12 @@ body {
     width: 200px;
     height: 60px;
     margin-left: 200px;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 0px;
+}
+
+#second:hover {
+    margin-bottom: 60px;
 }
 
 #third {
@@ -54,4 +66,9 @@ body {
     width: 200px;
     height: 60px;
     margin-left: 400px;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 0px;
+}
+#third:hover {
+    margin-bottom: 60px;
 }
